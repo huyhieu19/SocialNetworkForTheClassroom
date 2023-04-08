@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SocialNetworkForClass.API.props" />
+</Project>
