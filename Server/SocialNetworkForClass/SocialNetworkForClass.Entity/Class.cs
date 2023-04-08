@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class Student : EntityBase
+    public class Class : EntityBase
     {
         public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
+        public string Name { get; set; }
+        public int TeacherClassId { get; set; }
         public string Description { get; set; } = string.Empty;
-        public string image { get; set; } = string.Empty;
-        public double CPA { get; set; }
     }
 }
