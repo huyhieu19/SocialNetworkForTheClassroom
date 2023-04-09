@@ -1,0 +1,7 @@
+*.vs
+package-lock.json
+*.cache
+*.vsidx
+*.suo
+/obj
+*.editorconfig
