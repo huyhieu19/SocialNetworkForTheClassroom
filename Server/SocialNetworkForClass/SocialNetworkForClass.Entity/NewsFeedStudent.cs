@@ -8,8 +8,9 @@ namespace Entity
 {
     public class NewsFeedStudent
     {
-        public int Id { get; set; }
-        public int NewsFeedId { get; set; }
-        public int StudentId { get; set; }
+        public int id { get; set; }
+        public int newsFeedId { get; set; }
+        public int studentId { get; set; }
+        public Student student { get; set; }
     }
 }

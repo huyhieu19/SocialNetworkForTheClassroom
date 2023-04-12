@@ -8,8 +8,8 @@ namespace Entity
 {
     public class ImageNewsFeed
     {
-        public int Id { get; set; }
-        public int NewFeedId { get; set; }
-        public string Image { get; set; }
+        public int id { get; set; }
+        public int newFeedId { get; set; }
+        public string image { get; set; }
     }
 }
