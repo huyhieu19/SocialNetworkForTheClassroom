@@ -8,10 +8,12 @@ namespace Entity
 {
     public class Teacher : EntityBase
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string Email { get; set; }
-        public string PhoneNumber { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public string description { get; set; }
+        public string email { get; set; }
+        public string phoneNumber { get; set; }
+        public List<Class> classes { get; set; }
+        public List<CommentTeacher> commentTeachers { get; set; }
     }
 }

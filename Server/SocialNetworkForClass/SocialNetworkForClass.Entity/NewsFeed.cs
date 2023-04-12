@@ -8,9 +8,12 @@ namespace Entity
 {
     public class NewsFeed : EntityBase
     {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string Images { get; set; }
-        public string Tags { get; set; }
+        public int id { get; set; }
+        public string title { get; set; }
+        public string images { get; set; }
+        public string tags { get; set; }
+        public List<ImageNewsFeed> imagesNewFeeds { get; set; }
+        public List<NewsFeedStudent> newsFeedStudents { get; set; }
+        public List<NewsFeedTeacher> NewsFeedTeachers { get; set; }
     }
 }

@@ -8,9 +8,12 @@ namespace Entity
 {
     public class Class : EntityBase
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int TeacherClassId { get; set; }
-        public string Description { get; set; } = string.Empty;
+        public int id { get; set; }
+        public string name { get; set; }
+        public int teacherId { get; set; }
+        public string description { get; set; } = string.Empty;
+        public Teacher teacher { get; set;}
+        public List<Document> documents { get; set; }
+        public List<Score> scores { get; set; }
     }
 }

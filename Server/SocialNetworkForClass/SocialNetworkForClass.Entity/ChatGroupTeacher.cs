@@ -8,8 +8,10 @@ namespace Entity
 {
     public class ChatGroupTeacher
     {
-        public int Id { get; set; }
-        public int ChatGroupId { get; set; }
-        public int StudentId { get; set; }
+        public int id { get; set; }
+        public int chatGroupId { get; set; }
+        public int studentId { get; set; }
+        public bool isAdmin { get; set; } = false;
+        public ChatGroup chatGroup { get; set; }
     }
 }

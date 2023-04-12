@@ -8,12 +8,14 @@ namespace Entity
 {
     public class Score
     {
-        public int Id { get; set; }
-        public int ClassId { get; set; }
-        public int StudentId { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public double MidtermScore { get; set; }
-        public double FinalScore { get; set; }
-        public double AverageScore { get; set; }
+        public int id { get; set; }
+        public int classId { get; set; }
+        public int studentId { get; set; }
+        public string name { get; set; } = string.Empty;
+        public double midtermScore { get; set; }
+        public double finalScore { get; set; }
+        public double averageScore { get; set; }
+        public Student student { get; set; }
+        public Class @class { get; set; }
     }
 }
